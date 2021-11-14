@@ -969,8 +969,8 @@ contract OptimusRise is ERC20, Ownable {
         uint256 _buyDevFee = 1;
 
         uint256 _sellMarketingFee = 4;   //changed to 3% after 24 hours
-        uint256 _sellLiquidityFee = 15; //changed to 6% after 24 hours
-        uint256 _sellBuyBackFee = 5; 
+        uint256 _sellLiquidityFee = 15; //changed to 9% after 24 hours
+        uint256 _sellBuyBackFee = 5;    //changed to 2% after 24 hours
         uint256 _sellDevFee = 1;    
         
         uint256 totalSupply = 1 * 1e12 * 1e18;
